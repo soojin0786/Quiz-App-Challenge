@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    background-image: url("https://cdn1.parksmedia.wdprapps.disney.com/media/disneyparksjapan-prod/disneyparksjapan_v0001/1/media/dlr/videos/disneyland/gallery/disneyland-gallery00.jpg");
+    background-size: cover;
+}
+
+h1{
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+.quiz-main {
+    background-color: white;
+    opacity: 0.8;
+    margin: auto;
+    height: 400px;
+    width: 60%;
+    padding: 0px;
+    text-align: center;
+    line-height: 65px;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+input[type=button] {
+    background-color: pink;
+    height: 50px;
+    width: 75%;
+    margin: auto; 
+    text-align: left; 
+}
+
+ul {
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+}
+
+li{
+  display: inline;
+  color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 50px;
+  text-shadow: 2px 2px black;
+}
