@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="index.css" rel="stylesheet" type="text/css" />
-    <title>Quiz App</title>
+    <title>Disneyland Quiz</title>
 </head>
 <body>
+  <header>
     <h1>Test your Disneyland knowledge!</h1>
+  </header>
 
-    <div class="quiz-main">
-        <h2>Question</h2>
-        <form>
-          <fieldset>
-            <label class="answer"><input type="button" value="multiple choice 1" name="answer" required></label>
-            <label class="answer"><input type="button" value="multiple choice 2" name="answer" required></label>
-            <label class="answer"><input type="button" value="multiple choice 3" name="answer" required></label>
-            <label class="answer"><input type="button" value="multiple choice 4" name="answer" required></label>
-          </fieldset>
-        </form>
-          
+  <main>
+    
+    <div class="startPage">
+      <h2 class="startQuiz">How well do you know Disneyland? <br> Take this quiz to find out!</h2>
+      <button type="button" class="quizButton" id="start"><img class=" logo" src="https://i.ebayimg.com/images/g/I64AAOSweXFb76U3/s-l300.jpg" alt="mickey mouse logo">Start Quiz</button>
     </div>
+    <div class="quizMain"></div>
     
+  </main> 
+   
+  <footer>
+      <ul>
+        <li>Question <span class="questionNumber">0</span> of 10</li>
+        <li>Score <span class="score">0</span>/10</li>
+      </ul>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 
-    <footer>
-        <ul>
-          <li>Question 1 of 10</li>
-          <li>Score 0/10</li>
-        </ul>
-    </footer>
-    
 </body>
 </html>
