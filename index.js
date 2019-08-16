@@ -98,7 +98,7 @@ function handleSubmitAnswer() {
       $('.quizMain').html(`<div class="feedback"><h3><img class="Icon" src="https://i.imgur.com/oyVwjWS.png" alt="thumbs-up">
       You got it!</h3>
       <p class="funFact">${STORE[questionNum].funFact}</p>
-      <button type="button" class="next">Next Question</button></div>`);
+      <button type="button" class="next">Next</button></div>`);
       updateScore();
     } 
     else {
