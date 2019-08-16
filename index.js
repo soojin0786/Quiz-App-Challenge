@@ -106,7 +106,7 @@ function handleSubmitAnswer() {
       <h3><img class="Icon" src="https://i.imgur.com/1dRHq3d.png" alt="stitch crying">
       Oops!<br><span class="answerFeedback">The correct answer is ${STORE[questionNum].correctAnswer}</span></h3>
       <p class="funFact">${STORE[questionNum].funFact}</p>
-      <button type="button" class="next">Next Question</button></div>`);
+      <button type="button" class="next">Next</button></div>`);
     }
     updateQuestionNum();
     generateNextQuestion();
@@ -115,7 +115,9 @@ function handleSubmitAnswer() {
 
 function updateQuestionNum () {
   questionNum ++;
+  if (questionNum < STORE.length) {
   $('.questionNumber').text(questionNum+1);
+  }
 };
 
 function updateScore () {
